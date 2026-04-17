@@ -47,7 +47,7 @@ services:
     plan: free
     maxmemoryPolicy: allkeys-lru
     ipAllowList:
-  - source: "0.0.0.0/0"
+      - source: "0.0.0.0/0"
 
 # ============================================================
 # Cách deploy:
